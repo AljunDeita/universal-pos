@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# App data (generated at runtime, shouldn't be in version control)
+*.db
+*.sqlite
+*.sqlite3
+pos.db
+
+# Build output
+build/
+dist/
+*.spec.bak
+*.exe
+*.msi
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
